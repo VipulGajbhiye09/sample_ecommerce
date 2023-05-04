@@ -1,0 +1,35 @@
+header {
+  background-color: #68aabe;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 350px;
+  display: inline-block;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
