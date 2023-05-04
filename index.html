@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Mini Project Website 1</title>
-</head>
-<body>
-    <body>
-	<header>
-		<h1>E-commerce Website</h1>
-	</header>
-	<main>
-		<section class="product-cards">
-			<div class="product-card">
-				<img src="product-1.jpg" alt="Product 1">
-				<h2>Product 1</h2>
-				<p class="price">$19.99</p>
-				<button class="buy-now" data-name="Product 1" data-price="19.99">Buy Now</button>
-			</div>
-			<div class="product-card">
-				<img src="product-2.jpg" alt="Product 2">
-				<h2>Product 2</h2>
-				<p class="price">$29.99</p>
-				<button class="buy-now" data-name="Product 2" data-price="29.99">Buy Now</button>
-			</div>
-			<div class="product-card">
-				<img src="product-3.jpg" alt="Product 3">
-				<h2>Product 3</h2>
-				<p class="price">$39.99</p>
-				<button class="buy-now" data-name="Product 3" data-price="39.99">Buy Now</button>
-			</div>
-			<div class="product-card">
-				<img src="product-4.jpg" alt="Product 4">
-				<h2>Product 4</h2>
-					<p class="price">$49.99</p>
-				<button class="buy-now" data-name="Product 4" data-price="49.99">Buy Now</button>
-			</div>
-			<div class="product-card">
-				<img src="product-5.jpg" alt="Product 5">
-				<h2>Product 5</h2>
-				<p class="price">$59.99</p>
-				<button class="buy-now" data-name="Product 5" data-price="59.99">Buy Now</button>
-			</div>
-			<div class="product-card">
-				<img src="product-6.jpg" alt="Product 6">
-				<h2>Product 6</h2>
-				<p class="price">$69.99</p>
-				<button class="buy-now" data-name="Product 6" data-price="69.99">Buy Now</button>
-			</div>
-			<div class="product-card">
-				<img src="product-7.jpg" alt="Product 7">
-				<h2>Product 7</h2>
-				<p class="price">$79.99</p>
-				<button class="buy-now" data-name="Product 7" data-price="79.99">Buy Now</button>
-			</div>
-			<div class="product-card">
-				<img src="product-8.jpg" alt="Product 8">
-				<h2>Product 8</h2>
-				<p class="price">$89.99</p>
-				<button class="buy-now" data-name="Product 8" data-price="89.99">Buy Now</button>
-			</div>
-		</section>
-	</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>E-commerce Website</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>E-commerce Website</h1>
+    </header>
+    <div class="product-card-container">
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=1" alt="Product 1" />
+        <h3>Product 1</h3>
+        <p>$19.99</p>
+        <button onclick="storeProduct('Product 1', 19.99)">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=2" alt="Product 2" />
+        <h3>Product 2</h3>
+        <p>$29.99</p>
+        <button onclick="storeProduct('Product 2', 29.99)">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=3" alt="Product 3" />
+        <h3>Product 3</h3>
+        <p>$39.99</p>
+        <button onclick="storeProduct('Product 3', 39.99)">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=4" alt="Product 4" />
+        <h3>Product 4</h3>
+        <p>$49.99</p>
+        <button onclick="storeProduct('Product 4', 49.99)">Buy Now</button>
+      </div>
+      <div class="clear-both"></div>
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=5" alt="Product 5" />
+        <h3>Product 5</h3>
+        <p>$59.99</p>
+        <button onclick="storeProduct('Product 5', 59.99)">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=6" alt="Product 6" />
+        <h3>Product 6</h3>
+        <p>$69.99</p>
+        <button onclick="storeProduct('Product 6', 69.99)">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=7" alt="Product 7" />
+        <h3>Product 7</h3>
+        <p>$79.99</p>
+        <button onclick="storeProduct('Product 7', 79.99)">Buy Now</button>
+      </div>
+      <div class="product-card">
+        <img src="https://picsum.photos/300?random=8" alt="Product 8" />
+        <h3>Product 8</h3>
+        <p>$89.99</p>
+        <button onclick="storeProduct('Product 8', 89.99)">Buy Now</button>
+      </div>
+    </div>
+
+  </body>
 </html>
