@@ -63,6 +63,22 @@
         <button onclick="storeProduct('Product 8', 89.99)">Buy Now</button>
       </div>
     </div>
-
+      <script>
+      function storeProduct(name, price) {
+        fetch("/store", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: name,
+            price: price,
+          }),
+        })
+          .then((response) => response.json())
+          .then((data) => console.log(data))
+          .catch((error) => console.error(error));
+      }
+    </script>
   </body>
 </html>
